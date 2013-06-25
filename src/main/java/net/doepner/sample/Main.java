@@ -6,6 +6,6 @@ package net.doepner.sample;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("It works!");
+        JOptionPane.showMessageDialog("It works!");
     }
 }
