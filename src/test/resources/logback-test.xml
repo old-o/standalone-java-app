@@ -1,0 +1,17 @@
+<configuration debug="true">
+
+    <!-- Logback config for tests and local execution on developer machine -->
+
+    <!-- See http://logback.qos.ch/manual/configuration.html -->
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="console"/>
+    </root>
+
+</configuration>
